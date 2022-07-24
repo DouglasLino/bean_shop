@@ -17,7 +17,7 @@ h4 {
 header {
     padding: 20px 0 0 0;
     background: white;
-    text-align: center;
+    text-align: center; 
 }
 @media (min-width: 750px) {
     header {
@@ -42,7 +42,8 @@ ul {
     background-size: cover;
     background-attachment: fixed;
     background-position-x: center;
-    /* background-position-y: center; */
+    /* background-position-y: top; */
+    bottom: 10%;
 }
 #encabezado {
     margin: 30px 0;
@@ -77,6 +78,7 @@ ul {
     margin-top: 80px;
     color: white;
 }
+
 .contenido-hero form {
     position: relative;
     margin-bottom: 0;
@@ -101,18 +103,27 @@ ul {
 }
 
 
-.barra {
+/* .barra {
     padding: 20px 0;
-    background: #741d51; /* Old browsers */
-    background: -moz-linear-gradient(left, #741d51 0%, #e44e52 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(left, #741d51 0%,#e44e52 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right, #741d51 0%,#e44e52 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#741d51', endColorstr='#e44e52',GradientType=1 ); /* IE6-9 */
+    background: #741d51;
+    background: -moz-linear-gradient(left, #741d51 0%, #e44e52 100%);
+    background: -webkit-linear-gradient(left, #741d51 0%,#e44e52 100%); 
+    background: linear-gradient(to right, #741d51 0%,#e44e52 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#741d51', endColorstr='#e44e52',GradientType=1 ); 
+} */
+
+.barra{
+    padding: 20px 0;
+    background-color: #6D4826 ;
+    /* background-image: radial-gradient(circle at 120.71% 50%, #fffac0 0, #fbe7a8 16.67%, #ebd08c 33.33%, #d8b46c 50%, #c5994d 66.67%, #b68234 83.33%, #ab6f21 100%); */
 }
 
 .barra p {
     margin:0;
     color: white;
+    font-size: 15px;
+    font-weight: 700;
+    color: black;
 }
 .icono {
     background-repeat: no-repeat;
@@ -128,13 +139,13 @@ ul {
     }
 }
 .icono1 {
-    background-image: url(../img/icono1.png);
+    background-image: url(../img/taza-de-cafe.png);
 }
 .icono2 {
-    background-image: url(../img/icono2.png);
+    background-image: url(../img/signo-de-dolar.png);
 }
 .icono3 {
-    background-image: url(../img/icono3.png);
+    background-image: url(../img/reloj.png);
 }
 
 #lista-cursos .row {

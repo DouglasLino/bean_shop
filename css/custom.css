@@ -186,11 +186,15 @@ ul {
 
 .footer {
     margin-top: 40px;
-    border-top:1px solid #aaa;;
+    border-top:1px solid #DEB786;;
+    background: #DEB786;
     padding-top: 40px;   
 }
 .footer .menu a{
 display: block;
 margin-bottom: 10px;
 text-decoration: none;
+color: black;
+font-size: 1.2em;
 }
+

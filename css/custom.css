@@ -185,11 +185,15 @@ ul {
 
 
 .footer {
+   
+    
     margin-top: 40px;
     border-top:1px solid #DEB786;;
     background: #DEB786;
     padding-top: 40px;   
 }
+
+
 .footer .menu a{
 display: block;
 margin-bottom: 10px;
@@ -198,3 +202,91 @@ color: black;
 font-size: 1.2em;
 }
 
+
+.footer-bottom {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
+    margin-top: 40px;
+    border-top:1px solid #DEB786;;
+    background: #DEB786;
+    padding-top: 40px;   
+}
+
+.footer-bottom .menu a{
+display: block;
+margin-bottom: 10px;
+text-decoration: none;
+color: black;
+font-size: 1.2em;
+}
+
+/* Politica y privacidad */
+.politica-privacidad{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-width: 320px;
+    height: 334px;
+    text-align: center;
+    
+}
+
+.politica-privacidad--terminos{
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    height: 218px;
+    margin-top: 40px;
+}
+.politica-privacidad--terminos h2{
+    font-size: 3rem; 
+    font-weight: bold;
+    line-height: 2.6rem;
+}
+.politica-privacidad--terminos p{
+    margin-top: 25px;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 2.3rem;
+    text-align: left;
+}
+
+/* Acerca de nostros Bean Shop */
+.acerca-de{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-width: 320px;
+    height: 334px;
+    text-align: center;
+    
+}
+
+.acerca-de--detalles{
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    height: 218px;
+    margin-top: 40px;
+}
+.acerca-de--detalles h2{
+    font-size: 3rem; 
+    font-weight: bold;
+    line-height: 2.6rem;
+}
+.acerca-de--detalles p{
+    margin-top: 25px;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 2.6rem;
+    text-align: center;
+}
